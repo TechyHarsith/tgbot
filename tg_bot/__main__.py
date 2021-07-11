@@ -20,9 +20,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 
-Hey {} there! My name is [ഇദ്ദേഹം](tg://user?id={}) - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+Hey {} ! My name is Qatar Papa- I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
-Join my news channel to get information on all the latest updates.
+Join my channel to get information on all the latest updates.
 
 
 
@@ -155,8 +155,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://youtu.be/W6CLKrehy6w")],
-                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/anymodapps"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/KochuUpdates")],
+                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://t.me/meejack")],
+                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/anymodapps"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/freepremiumaccount_s")],
                      [InlineKeyboardButton(text="🎬 Telegram Channel", url="https://t.me/freepremiumaccount_s"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
