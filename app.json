@@ -1,5 +1,5 @@
 {
-  "name": "Qatar Papa Bot",
+  "name": "Techy Harshith Group Manager Bot",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "logo": "https://telegra.ph/file/57fbbf9b99c1ce72e887b.jpg",
   "keywords": [
@@ -12,7 +12,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Paramesh430/tgbot",
+  "repository": "https://github.com/TechyHarshith/tgbot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
@@ -54,7 +54,7 @@
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://www.paypal.me/qatarpapa"
+      "value": "https://paypal.me/Harsithtechngaming?locale.x=en_GB"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
