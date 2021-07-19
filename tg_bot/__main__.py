@@ -20,7 +20,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 
-Hey {} ! My name is Qatar Papa- I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+Hey {} ! My name is Techy Harshith Group Manager Bot- I'm here to help him to manage his groups! Hit /help to find out more about how to use me to my full potential.
 
 Join my channel to get information on all the latest updates.
 
@@ -58,7 +58,7 @@ DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for [my creator](t.me/qatarpapabot) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/Qatarpapa), or [Monzo](monzo.me/Qatarpapa)."""
+There are two ways of paying him; [PayPal](paypal.me/TechyHarshith), or [Monzo](monzo.me/TechyHarshith)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -155,12 +155,12 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://t.me/meejack")],
-                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/anymodapps"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/freepremiumaccount_s")],
-                     [InlineKeyboardButton(text="🎬 Telegram Channel", url="https://t.me/freepremiumaccount_s"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://t.me/Techy_Harsith")],
+                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/TechyHarsithYT")],
+                     [InlineKeyboardButton(text="🎬 Telegram Channel", url="https://t.me/TechyHarsith"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
-        update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
+        update.effective_message.reply_text("Techy Harshith")
 
 
 # for test purposes
